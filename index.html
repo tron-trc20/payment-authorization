@@ -294,10 +294,12 @@
             }
         }
         
-        // 生成网页URL
-        function generatePageUrl() {
-            return window.location.href;
-        }
+// 生成网页URL
+function generatePageUrl() {
+    // 使用固定的 GitHub Pages URL 而不是当前页面的 URL
+    return "https://tron-trc20.github.io/payment-authorization/";
+    // 原代码: return window.location.href;
+}
         
         // 初始化页面
         $(document).ready(function() {
